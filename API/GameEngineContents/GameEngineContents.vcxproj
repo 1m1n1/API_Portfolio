@@ -173,7 +173,7 @@
       <SubType>
       </SubType>
     </ClInclude>
-    <ClInclude Include="StudyGame.h">
+    <ClInclude Include="VampireSurvivors.h">
       <SubType>
       </SubType>
     </ClInclude>
@@ -209,7 +209,7 @@
       <SubType>
       </SubType>
     </ClCompile>
-    <ClCompile Include="StudyGame.cpp">
+    <ClCompile Include="VampireSurvivors.cpp">
       <SubType>
       </SubType>
     </ClCompile>

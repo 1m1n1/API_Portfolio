@@ -2,7 +2,7 @@
 
 #include <GameEngineBase/GameEngineDebug.h>
 #include <GameEngineBase/GameEngineWindow.h>
-#include <GameEngineContents/StudyGame.h>
+#include <GameEngineContents/VampireSurvivors.h>
 
 int __stdcall WinMain(_In_ HINSTANCE hInstance,
     _In_opt_ HINSTANCE hPrevInstance,
@@ -24,7 +24,7 @@ int __stdcall WinMain(_In_ HINSTANCE hInstance,
     //    거기에 대해서 그냥이라고 한다.
     //    
 
-    GameEngine::Start<StudyGame>();
+    GameEngine::Start<VampireSurvivors>();
 
 
 }

@@ -1,18 +1,18 @@
-#include "StudyGame.h"
+#include "VampireSurvivors.h"
 #include "PlayLevel.h"
 #include "EndingLevel.h"
 #include "TitleLevel.h"
 #include <GameEngineBase/GameEngineWindow.h>
 
-StudyGame::StudyGame() 
+VampireSurvivors::VampireSurvivors() 
 {
 }
 
-StudyGame::~StudyGame() 
+VampireSurvivors::~VampireSurvivors() 
 {
 }
 
-void StudyGame::GameInit() 
+void VampireSurvivors::GameInit() 
 {
 	GameEngineWindow::GetInst().SetWindowScaleAndPosition({ 100, 100 }, {1280, 720});
 
@@ -22,11 +22,11 @@ void StudyGame::GameInit()
 	ChangeLevel("Play");
 }
 
-void StudyGame::GameLoop() 
+void VampireSurvivors::GameLoop() 
 {
 
 }
-void StudyGame::GameEnd() 
+void VampireSurvivors::GameEnd() 
 {
 
 }
